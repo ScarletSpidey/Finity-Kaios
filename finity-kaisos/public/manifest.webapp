@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "KaiOS app for the Finity Platform",
+  "description": "Account aggregator",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/kaios_56.png",
+    "112": "/assets/icons/kaios_112.png"
+  },
+  "developer": {
+    "name": "Shobit Puri",
+    "url": "https://github.com/ScarletSpidey/Finity-Kaios"
+  },
+  "locales": {
+    "en-US": {
+      "name": "KaiOS app for Fininity Platform",
+      "subtitle": "Account aggregator",
+      "description": "Account aggregator"
+    }
+  },
+  "default_locale": "en-US"
+}
