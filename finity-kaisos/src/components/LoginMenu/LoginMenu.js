@@ -5,28 +5,31 @@ const LoginMenu = () => {
     <div className='container pt-3'>
       <div className='container'>
         <form>
-          <div className='form-group'>
-            <label htmlFor='exampleInputEmail1'>Email address</label>
+          <div className=''>
+            <label htmlFor='exampleInputEmail1'>
+              <small>Account aggregator Id</small>
+            </label>
             <input
-              type='email'
+              type='text'
               className='form-control'
               id='exampleInputEmail1'
               aria-describedby='emailHelp'
             />
           </div>
-          <div className='form-group'>
-            <label htmlFor='exampleInputPassword1'>Password</label>
+          <div className='pb-3'>
+            <label htmlFor='exampleInputPassword1'>
+              <small>Your Pin</small>
+            </label>
             <input
               type='password'
               className='form-control'
               id='exampleInputPassword1'
             />
           </div>
-          <center>
-            <button type='submit' className='btn btn-primary'>
-              Submit
-            </button>
-          </center>
+
+          <button type='submit' className='btn btn-primary btn-sm'>
+            Submit
+          </button>
         </form>
       </div>
     </div>
